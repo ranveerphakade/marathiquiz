@@ -16,6 +16,7 @@ import streamlit as st
 from utils.question_loader import load_questions
 from utils.quiz_engine import select_questions, calculate_score, to_marathi_num
 from utils.ai_bot import get_ai_explanation, get_gemini_api_key
+from utils.pwa_helper import inject_pwa
 
 # --- 1. Page Configuration ---
 st.set_page_config(
@@ -24,6 +25,10 @@ st.set_page_config(
     layout="centered",
     initial_sidebar_state="collapsed"
 )
+
+# --- 1.1 Progressive Web App (PWA) Injection ---
+inject_pwa()
+
 
 # --- 2. Design System & CSS Styling ---
 CUSTOM_CSS = """

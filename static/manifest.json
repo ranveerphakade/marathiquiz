@@ -1,0 +1,45 @@
+{
+  "name": "मराठी प्रश्नमंजुषा",
+  "short_name": "मराठी प्रश्नमंजुषा",
+  "description": "इयत्ता ४ थी शिष्यवृत्ती परीक्षा सराव मराठी प्रश्नमंजुषा",
+  "id": "/?source=pwa",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0B1020",
+  "theme_color": "#0B1020",
+  "lang": "mr",
+  "dir": "ltr",
+  "categories": [
+    "education",
+    "kids",
+    "quiz"
+  ],
+  "icons": [
+    {
+      "src": "/app/static/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/app/static/icons/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/app/static/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/app/static/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
